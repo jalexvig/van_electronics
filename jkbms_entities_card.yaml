@@ -1,0 +1,104 @@
+type: entities
+title: Front Cabinet
+show_header_toggle: false
+state_color: false
+entities:
+  - type: section
+    label: Functions
+  - entity: switch.jkbms_front_cabinet_charging
+    name: Charging
+  - entity: switch.jkbms_front_cabinet_discharging
+    name: Discharging
+  - entity: switch.jkbms_front_cabinet_balancer
+    name: Balancing
+  - type: section
+    label: Status
+  - entity: sensor.jkbms_front_cabinet_current
+    name: Current
+  - entity: sensor.jkbms_front_cabinet_total_voltage
+    name: Voltage
+  - entity: sensor.jkbms_front_cabinet_power
+    name: Power
+  - entity: sensor.jkbms_front_cabinet_charging_power
+    name: Charging Power
+  - entity: sensor.jkbms_front_cabinet_discharging_power
+    name: Discharging Power
+  - entity: sensor.jkbms_front_cabinet_state_of_charge
+    name: State of Charge
+  - entity: sensor.jkbms_front_cabinet_temperature_sensor_1
+    name: Temperature 1
+  - entity: sensor.jkbms_front_cabinet_temperature_sensor_2
+    name: Temperature 2
+  - entity: sensor.jkbms_front_cabinet_power_tube_temperature
+    name: Power Tube Temperature?
+  - type: section
+    label: Cell Voltages
+  - entity: sensor.jkbms_front_cabinet_min_cell_voltage
+    name: Min Cell Voltage
+  - entity: sensor.jkbms_front_cabinet_max_cell_voltage
+    name: Max Cell Voltage
+  - entity: sensor.jkbms_front_cabinet_average_cell_voltage
+    name: Average Cell Voltage
+  - entity: sensor.jkbms_front_cabinet_delta_cell_voltage
+    name: Delta Cell Voltage
+  - entity: sensor.jkbms_front_cabinet_cell_voltage_1
+    name: Cell Voltage 1
+  - entity: sensor.jkbms_front_cabinet_cell_voltage_2
+    name: Cell Voltage 2
+  - entity: sensor.jkbms_front_cabinet_cell_voltage_3
+    name: Cell Voltage 3
+  - entity: sensor.jkbms_front_cabinet_cell_voltage_4
+    name: Cell Voltage 4
+  - entity: sensor.jkbms_front_cabinet_cell_voltage_5
+    name: Cell Voltage 5
+  - entity: sensor.jkbms_front_cabinet_cell_voltage_6
+    name: Cell Voltage 6
+  - entity: sensor.jkbms_front_cabinet_cell_voltage_7
+    name: Cell Voltage 7
+  - entity: sensor.jkbms_front_cabinet_cell_voltage_8
+    name: Cell Voltage 8
+  - type: section
+    label: Settings
+  - entity: number.jkbms_front_cabinet_balance_starting_voltage
+    name: Balance Starting Voltage
+  - entity: number.jkbms_front_cabinet_balance_trigger_voltage
+    name: Balance Trigger Voltage
+  - entity: number.jkbms_front_cabinet_total_battery_capacity
+    name: Capacity
+  - type: section
+    label: Protections
+  - entity: number.jkbms_front_cabinet_cell_voltage_overvoltage_protection
+    name: Cell Overvoltage
+  - entity: number.jkbms_front_cabinet_cell_voltage_overvoltage_recovery
+    name: Cell Overvoltage Recovery
+  - entity: number.jkbms_front_cabinet_cell_voltage_undervoltage_protection
+    name: Cell Undervoltage
+  - entity: number.jkbms_front_cabinet_cell_voltage_undervoltage_recovery
+    name: Cell Undervoltage Recovery
+  - entity: number.jkbms_front_cabinet_power_off_voltage
+    name: Power Off Voltage
+  - entity: number.jkbms_front_cabinet_max_charge_current
+    name: Max Charge Current
+  - entity: number.jkbms_front_cabinet_max_discharge_current
+    name: Max Discharge Current
+  - entity: number.jkbms_front_cabinet_max_balance_current
+    name: Max Balance Current
+  - type: section
+    label: Cell Resistances
+  - entity: sensor.jkbms_front_cabinet_cell_resistance_1
+    name: Cell Resistance 1
+  - entity: sensor.jkbms_front_cabinet_cell_resistance_2
+    name: Cell Resistance 2
+  - entity: sensor.jkbms_front_cabinet_cell_resistance_3
+    name: Cell Resistance 3
+  - entity: sensor.jkbms_front_cabinet_cell_resistance_4
+    name: Cell Resistance 4
+  - entity: sensor.jkbms_front_cabinet_cell_resistance_5
+    name: Cell Resistance 5
+  - entity: sensor.jkbms_front_cabinet_cell_resistance_6
+    name: Cell Resistance 6
+  - entity: sensor.jkbms_front_cabinet_cell_resistance_7
+    name: Cell Resistance 7
+  - entity: sensor.jkbms_front_cabinet_cell_resistance_8
+    name: Cell Resistance 8
+
