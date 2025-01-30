@@ -39,6 +39,7 @@ wifi:
   ap: {}
 
 ota:
+  platform: esphome
   on_begin:
     then:
       - switch.turn_off: ble_client_switch0
